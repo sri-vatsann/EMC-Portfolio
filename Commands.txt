@@ -27,3 +27,4 @@ code : git push origin main
   This push will send the file from local git to the repo 
   The orgin denots the orgin url from the repo and the file has to be pushed in the main branch so we add the branh 
 ------------------------------------------------------------------
+Same add-->commit-->Push --> goes for the files if they are modified 
