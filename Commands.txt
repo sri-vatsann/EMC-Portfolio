@@ -32,5 +32,6 @@ Same add-->commit-->Push --> goes for the files if they are modified and deletin
 Once you delete a file in local 
   You should still add the file which is basically taking to stagin area and commit and push so it is deleted in the git repo too 
 -------------------------------------------------------------------
-To pull a file created in git repo 
-  
+code : git pull
+  To pulls all the changes made in the repo which are not present in the local folder 
+--------------------------------------------------------------------
