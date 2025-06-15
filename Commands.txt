@@ -27,4 +27,10 @@ code : git push origin main
   This push will send the file from local git to the repo 
   The orgin denots the orgin url from the repo and the file has to be pushed in the main branch so we add the branh 
 ------------------------------------------------------------------
-Same add-->commit-->Push --> goes for the files if they are modified 
+Same add-->commit-->Push --> goes for the files if they are modified and deleting too 
+-------------------------------------------------------------------
+Once you delete a file in local 
+  You should still add the file which is basically taking to stagin area and commit and push so it is deleted in the git repo too 
+-------------------------------------------------------------------
+To pull a file created in git repo 
+  
