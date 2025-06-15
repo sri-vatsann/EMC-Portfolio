@@ -35,3 +35,16 @@ Once you delete a file in local
 code : git pull
   To pulls all the changes made in the repo which are not present in the local folder 
 --------------------------------------------------------------------
+To add a folder to repository 
+Code : git init
+  It acts as the anchor to the local to the repository and the existing files will be shown as not commited(untracked)
+----------------------------------------------------------------------
+Code : git add .
+  This code will add all the untracked files in one go to staging area 
+  and only normal commit is needed to commit all the added files 
+----------------------------------------------------------------------
+
+How to add a file in a new repo 
+  after using git init 
+  and adding and commiting then we cannot push as there is no new repository available or origin link present 
+code : git rem
