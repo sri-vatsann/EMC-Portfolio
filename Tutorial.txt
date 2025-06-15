@@ -1,0 +1,28 @@
+text.txt 
+
+This is a test file to setup Git in my desktop as well as check the working of it 
+I will be pushing this github text file into the local emc folder 
+steps: 
+1. Open terminal in VScode code : git clone 
+2. Open the git hub and select code and you come up with a url which is called "ORGIN'
+3. git clone plus the link then the contents are cloned in the local 
+----------------------------------------------------------
+To navigate inside a folder 
+  use cd and the folder name to navigate inside 
+---------------------------------------------------------
+To push a local file 
+
+if a file is not pushed from a local folder then it shows untracked and if the uploaded file has changes it shows as modified error in terminal if 
+checked status by code 
+code : git status 
+
+code : git add.test.txt 
+  this adds the file and the status changes from untracked to Added to Staging area(it is more or like a waiting area )
+
+code : git commit-m"Commit message"
+  THis code gets the file from staging area to the local folder of git and the A symbol is gone it will be added in the local git
+  not in the repo
+
+code : git push origin main 
+  This push will send the file from local git to the repo 
+  The orgin denots the orgin url from the repo and the file has to be pushed in the main branch so we add the branh 
