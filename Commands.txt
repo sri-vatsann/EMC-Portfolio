@@ -47,4 +47,9 @@ Code : git add .
 How to add a file in a new repo 
   after using git init 
   and adding and commiting then we cannot push as there is no new repository available or origin link present 
-code : git rem
+code : git remote push origin (url)
+this will add the repository and an push other files in the normal manner but the branch name  would be master as it was the name 
+from the old git verson if you want to change it 
+Code : git branch- M main
+  This code will add a branch main and can be used later 
+---------------------------------------------------------------------------------------------------
