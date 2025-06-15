@@ -1,0 +1,7 @@
+text.txt 
+
+This is a test file to setup Git in my desktop as well as check the working of it 
+I will be pushing this github text file into the local emc folder 
+steps: 
+1. Open terminal in VScode code : git clone 
+2. Open the git hub and select code and you come up with a url which is called "ORGIN'
