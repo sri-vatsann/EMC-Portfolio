@@ -53,3 +53,19 @@ from the old git verson if you want to change it
 Code : git branch- M main
   This code will add a branch main and can be used later 
 ---------------------------------------------------------------------------------------------------
+Branches in github
+Branches can be created in the github website and they are not shown auto in the vs code 
+* We have to pull them using code:git pull
+Then to know which branch we are currently in we use 
+Code: git branch 
+  This code gives the number of branches in the repo
+---------------------------------------------------------------------
+Code: git branch -a
+  This code gives the list of branches in the repo
+---------------------------------------------------------------------
+Code: git checkout (branch name)
+  By this code we can navigate from the branches and save the code 
+--------------------------------------------------------------------
+* you can directly push files in branches by 
+Code : git push origin branch
+-----------------------------------------------------------------------
