@@ -1,4 +1,5 @@
-text.txt 
+Commands for Git hub 
+
 
 This is a test file to setup Git in my desktop as well as check the working of it 
 I will be pushing this github text file into the local emc folder 
@@ -53,7 +54,10 @@ from the old git verson if you want to change it
 Code : git branch- M main
   This code will add a branch main and can be used later 
 ---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 Branches in github
+  Branches are created to work independently in a team and later join the code in the main branch once it is approved 
 Branches can be created in the github website and they are not shown auto in the vs code 
 * We have to pull them using code:git pull
 Then to know which branch we are currently in we use 
@@ -69,3 +73,6 @@ Code: git checkout (branch name)
 * you can directly push files in branches by 
 Code : git push origin branch
 -----------------------------------------------------------------------
+Code: git diff (branch name)  
+  This gives the difference between the current branch and the branch name if there are any new files created or as such cances
+  
