@@ -1,0 +1,126 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: "Matangi", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.section-one {
+  background-color: #333446;
+  color: #b8cfce;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container {
+  padding: 50px;
+  background-color: #eaefef;
+}
+.section-one__contact {
+  text-decoration: none;
+  color: #b8cfce;
+}
+.section-one__contact:hover {
+  display: inline-block;
+  background-color: #b8cfce;
+  color: #333446;
+  border-radius: 5px;
+  width: 70px;
+  text-align: center;
+}
+
+.section-one__name {
+  font-size: 50px;
+}
+.section-one__role {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  margin-top: 20px;
+}
+
+.section-two__descr,
+.section-three__descr,
+.section-four__descr,
+.section-five__descr {
+  margin-top: 10px;
+}
+
+.section-five {
+  background-color: #333446;
+  color: #b8cfce;
+  border-radius: 10px;
+
+  padding: 20px;
+}
+.section-five a {
+  text-decoration: none;
+  color: #f0f4f6;
+}
+
+li {
+  list-style: none;
+}
+
+.section-three{
+    display: inline-block;
+    background-color: #B8CFCE;
+    border-radius: 10px;
+    padding: 20px;
+    height: 292px;
+    vertical-align: top;
+    
+}
+.section-four{
+    display: inline-block;
+    width: 1180px;
+background-color: #B5A8D5;
+border-radius: 10px;
+padding :20px;
+vertical-align: top;
+}
+
+.section-six{
+    margin-top: 20px;
+}
+.contact-form{
+    margin-top: 20px;
+}
+
+.contact-form__input, .contact-form__textarea, .contact-form__submit{
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    border: none;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__textarea{
+     border: none;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__submit{
+   display: inline-block;
+  background-color: #333446;
+  color:#b8cfce;
+  border-radius: 5px;
+  
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+
+  
+}

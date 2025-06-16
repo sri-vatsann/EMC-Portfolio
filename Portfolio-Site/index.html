@@ -4,64 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
 
-    <style>
-      ul {
-        list-style-type: circle;
-      }
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
 
-      ol {
-        list-style-type: upper-roman;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <h1>Srivatsan A</h1>
+    <div class="container">
+      <div class="section-one">
+        <h1 class="section-one__name">Srivatsan A</h1>
+        <p class="section-one__role">Mern Full Stack Developer</p>
+        <a
+          class="section-one__contact"
+          href="/EMC-Projects/Portfolio-Site/forms.html"
+          >Contact</a
+        >
+      </div>
 
-    <h2>About Me:</h2>
-    <p>
-      Front-End Developer with hands-on experience in building responsive, user-centric web applications using the 
-      MERN stack (MongoDB, Express.js, React.js, Node.js). Proficient in developing scalable front-end solutions, integrating RESTful APIs, 
-      and creating dynamic interfaces with modern JavaScript, HTML, and CSS. Passionate about clean code, intuitive UI/UX, 
-      and continuously learning new technologies. Strong understanding of React state management, routing, and component-based architecture. 
-      Successfully built projects like an Amazon clone and a travel agency booking platform, demonstrating real-world problem-solving and 
-      full-cycle front-end development skills
-    </p>
-
-    <h2>My Interests:</h2>
-    <ul>
-      <li>Trading</li>
-      <li>Web development</li>
-      <li>Batminton</li>
-    </ul>
-
-    <h2>My Projects:</h2>
-    <ul>
-      <li>
-        <h3>Amazon E-Commerce Clone</h3>
-        <p>
-         Developed a fully responsive Amazon clone using the MERN stack, focusing on a seamless front-end experience with React.js, Redux, HTML, CSS, and JavaScript. The application features product listings with filtering and search, user authentication with JWT,
-          a dynamic shopping cart,detailed product pages, and a complete checkout flow.Implemented clean UI design, state management with Redux Toolkit, and integrated RESTful APIs for data handling. Ensured a mobile-friendly interface and followed 
-          best practices for scalable front-end development.
+      <div class="section-two">
+        <h2 class="section-two__title">About Me:</h2>
+        <p class="section-two__descr">
+          Front-End Developer with hands-on experience in building responsive,
+          user-centric web applications using the MERN stack (MongoDB,
+          Express.js, React.js, Node.js). Proficient in developing scalable
+          front-end solutions, integrating RESTful APIs, and creating dynamic
+          interfaces with modern JavaScript, HTML, and CSS. Passionate about
+          clean code, intuitive UI/UX, and continuously learning new
+          technologies. Strong understanding of React state management, routing,
+          and component-based architecture. Successfully built projects like an
+          Amazon clone and a travel agency booking platform, demonstrating
+          real-world problem-solving and full-cycle front-end development skills
         </p>
-      </li>
-      <li>
-        <h3>Travel Agency Website</h3>
-        <p>
-          Built a responsive travel agency booking website using the MERN stack, enabling users to browse, search, 
-          and book holiday packages with ease. Developed intuitive user interfaces using React.js, HTML, CSS, and JavaScript, and implemented user 
-          authentication, real-time package filtering, booking forms, and a secure checkout process. Integrated RESTful APIs to fetch and display 
-          travel packages dynamically, and used Redux for managing user sessions and booking data.Ensured cross-device compatibility and 
-          smooth navigation for an enhanced user experience.
-        </p>
-      </li>
-    </ul>
+      </div>
 
-    
-    <p>Social media Handles: <a href="https://www.linkedin.com/in/srivatsan29/">Linkedin</a> <a href="https://www.instagram.com/">Instagram</a></p>
-    <a href="/EMC-Projects/Portfolio-Site/forms.html">Contact</a>
-    <p>&copy; Srix_Fx</p>
-</body>
+      <div class="section-three">
+        <h2 class="section-three__title">My Interests:</h2>
+        <ul class="section-three__descr">
+          <li>Trading</li>
+          <li>Web development</li>
+          <li>Batminton</li>
+        </ul>
+      </div>
+
+      <div class="section-four">
+        <h2 class="section-four__title">My Projects:</h2>
+        <ul class="section-four__desc">
+          <li>
+            <h3>Amazon E-Commerce Clone</h3>
+            <p>
+              Developed a fully responsive Amazon clone using the MERN stack,
+              focusing on a seamless front-end experience with React.js, Redux,
+              HTML, CSS, and JavaScript. The application features product
+              listings with filtering and search, user authentication with JWT,
+              a dynamic shopping cart,detailed product pages, and a complete
+              checkout flow.Implemented clean UI design, state management with
+              Redux Toolkit, and integrated RESTful APIs for data handling.
+              Ensured a mobile-friendly interface and followed best practices
+              for scalable front-end development.
+            </p>
+          </li>
+          <li>
+            <h3>Travel Agency Website</h3>
+            <p>
+              Built a responsive travel agency booking website using the MERN
+              stack, enabling users to browse, search, and book holiday packages
+              with ease. Developed intuitive user interfaces using React.js,
+              HTML, CSS, and JavaScript, and implemented user authentication,
+              real-time package filtering, booking forms, and a secure checkout
+              process. Integrated RESTful APIs to fetch and display travel
+              packages dynamically, and used Redux for managing user sessions
+              and booking data.Ensured cross-device compatibility and smooth
+              navigation for an enhanced user experience.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-five">
+        <p class="section-five__title">
+          Social media Handles:
+          <a href="https://www.linkedin.com/in/srivatsan29/">Linkedin</a>
+          <a href="https://www.instagram.com/">Instagram</a>
+        </p>
+
+        <p class="section-five__">&copy; Srix_Fx</p>
+      </div>
+    </div>
+  </body>
 </html>
 <!--  <ul>
         <li>one</li>
