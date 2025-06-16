@@ -74,5 +74,12 @@ Code: git checkout (branch name)
 Code : git push origin branch
 -----------------------------------------------------------------------
 Code: git diff (branch name)  
-  This gives the difference between the current branch and the branch name if there are any new files created or as such cances
-  
+  This gives the difference between the current branch and the branch name if there are any new files created or as such cases
+
+---------------------------------------------------------------------------------
+  Merging in Git 
+    Merging is done in a team everyone create a seperate branch and work in them once the work is done they would merge them into the main 
+    And it can be done by from main branch
+    Code : git merge (branchname)
+
+------------------------------------------------------------------------------------
