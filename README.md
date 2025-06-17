@@ -1,7 +1,3 @@
-Here's a clean and professional **README.md** content you can use for your portfolio website GitHub repository:
-
----
-
 # Portfolio Website
 
 This is a simple and responsive personal portfolio website built using **HTML** and **CSS**. It consists of two main pages:
@@ -25,9 +21,3 @@ This is a simple and responsive personal portfolio website built using **HTML** 
 
 [View Live Site](https://sri-vatsann.github.io/EMC-Portfolio/)
 
-
-
-
----
-
-Let me know if you want this tailored for a specific deployment (like GitHub Pages or Netlify), or if you want to include social links, favicon, or animations.
