@@ -23,8 +23,8 @@ This is a simple and responsive personal portfolio website built using **HTML** 
 
 ## Live Demo
 
-[View Live Site](#)
-*(Replace `#` with your deployed website link if available)*
+[View Live Site](https://sri-vatsann.github.io/EMC-Portfolio/)
+
 
 
 
